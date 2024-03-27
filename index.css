@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 360px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    background-color: #ADD8E6;
+}
+
+.article {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-weight: 500;
+}
+
+.btn button, .content input {
+    font-size: 1rem;
+    padding: 5px 15px 7px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+}
+
+.btn button {
+    margin: 30px 5px;
+}
+
+.textarea textarea {
+    margin: 10px 0 20px;
+    padding: 10px;
+    resize: none;
+    background-color: #f5f5f5;
+}
